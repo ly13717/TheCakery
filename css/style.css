@@ -1,0 +1,193 @@
+* {
+    font-family: arial, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
+    margin: 2em auto;
+    width: 80%;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header div {
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header  h1 {
+
+    font-family: arial, serif;
+    font-weight: bold;
+    font-size: 28pt;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 80px;
+}
+
+nav {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(254, 124, 2, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20pt;
+    margin-right: 100px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    background-color: rgba(206, 160, 110, 1)
+}
+
+main {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#home-article {
+    /* width: 40%; */
+    min-width: 320px;
+    height: 570px;
+    padding-top: 20px;
+    padding-right: 2cqmin;
+    font-size: 15pt;
+    text-overflow: ellipsis;
+}
+
+#home-article h2 {
+    font-family: arial, serif;
+    font-weight: bold;
+    font-size: 20pt;
+    padding-top: 10px;
+}
+
+
+.mainimg {
+    padding-top: 10px;
+    float: right;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    background-color: rgba(255, 225, 186, 0.5);
+    margin: 10px;
+    padding: 10px;
+}
+
+.gallery article {
+    width: 25%;
+}
+
+.gallery article img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(0, 4, 255);
+}
+
+footer img {
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    margin: 0px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+#aboutus {
+    margin-top: 10px;
+    width: 40%;
+    height: 300px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgba(255, 225, 186, 0.5);
+    margin-right: 20px;
+  }
+
+
+form {
+    width: 60%;
+    background-color: rgba(255, 225, 186, 0.5);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+form input, select, textarea {
+    width: 150%;
+    padding: 5px;
+    border: 1px, solid, #ccc;
+    resize: vertical;
+}
+
+form label {
+    padding: 10px, 10px, 10px, 10px;
+    display: inline-block;
+}
+
+form textarea {
+    width: 150%;
+    height: 150px;
+}
+
+
+form .myButton {
+    margin-top: 10px;
+    margin-left: 178px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 225, 186, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .myButton:hover {
+    background-color: rgba(206, 160, 110, 1);
+}
+
+p.message {
+    font-size: 20pt;
+}
